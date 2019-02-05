@@ -1,9 +1,13 @@
-# Validator for Flow Applications
-This package provides some validators to be used in a Flow based project.
+# Validator Helper Classes for Flow Applications
+This package provides some validators to be used in a [Flow](https://flow.neos.io/) based project.
 
 ## Included validators
 
 - Domain-Names
+
+
+## Usage
+to be written...
 
 ## Credits
 This package's code is heavily inspired by code I wrote years ago for the [Roketi Cluster Hosting Management](https://github.com/roketi) application. Thanks to open-source, this code can now live on - while Roketi in the planned form will probably never come to fly.
