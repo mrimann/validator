@@ -12,6 +12,7 @@ to be written...
 ## Credits
 This package's code is heavily inspired by code I wrote years ago for the [Roketi Cluster Hosting Management](https://github.com/roketi) application. Thanks to open-source, this code can now live on - while Roketi in the planned form will probably never come to fly.
 
+Thanks to the inspiration from the [phenaproxima/domain-constraint](https://github.com/phenaproxima/DomainConstraint) package, the domain name validator now alwo checks against the [list of allowed top-level domains defined by IANA](https://www.iana.org/domains/root/files).
 
 ## How to contribute?
 

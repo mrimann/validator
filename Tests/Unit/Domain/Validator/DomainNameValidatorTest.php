@@ -201,4 +201,46 @@ class DomainNameValidatorTest extends \Neos\Flow\Tests\UnitTestCase
             array('foo-.bar.ch')
         );
     }
+
+    /**
+     * @test
+     * @dataProvider validDomainNamesWithDifferentAllowedTopLevelDomains
+     */
+    public function isValidReturnsTrueOnValidDomainNameFromListOfAllowedTopLevelDomains()
+    {
+        $this->assertNotHasErrors(
+            $this->fixture->validate('opsdev.ch')
+        );
+    }
+
+    /**
+     * Provides valid domain names with some known and some unknown toplevel domains
+     *
+     * @return array
+     */
+    public function validDomainNamesWithDifferentAllowedTopLevelDomains()
+    {
+        return array(
+            array('foobar.ch'),
+            array('foobar.CH'),
+            array('foobar.com'),
+            array('foobar.abudhabi'),
+            array('foobar.zone'),
+            array('foobar.vermögensberater'),
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function isValidRaisesErrorOnDomainNameWithInexistentTopLevelDomain()
+    {
+        $this->assertHasErrors(
+            $this->fixture->validate('foo.bürk')
+        );
+    }
+
+
+
+
 }
