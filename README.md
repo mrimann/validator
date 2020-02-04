@@ -15,6 +15,8 @@ This package's code is heavily inspired by code I wrote years ago for the [Roket
 
 Thanks to the inspiration from the [phenaproxima/domain-constraint](https://github.com/phenaproxima/DomainConstraint) package, the domain name validator now also checks against the [list of allowed top-level domains defined by IANA](https://www.iana.org/domains/root/files).
 
+Thanks to my employer [internezzo ag](https://www.internezzo.ch) some parts of the packages could be done as paid working time + shared as open-source.
+
 ## How to contribute?
 
 Feel free to [file new issues](https://github.com/mrimann/validator/issues) if you find a problem or to propose a new feature. If you want to contribute your time and submit an improvement, I'm very eager to look at your pull request!
