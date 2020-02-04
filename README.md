@@ -4,6 +4,7 @@ This package provides some validators to be used in a [Flow](https://flow.neos.i
 ## Included validators
 
 - Domain-Names
+- Geocodes (Latitude + Longitude pairs)
 
 
 ## Usage
