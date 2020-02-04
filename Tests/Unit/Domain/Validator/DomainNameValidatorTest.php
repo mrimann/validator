@@ -1,7 +1,7 @@
 <?php
 namespace OpsDev\Validator\Tests\Unit\Domain\Validator;
 /*                                                                        *
- * This script belongs to the Flow package "Roketi.Panel".          *
+ * This script belongs to the Flow package "OpsDev.Validator".            *
  *                                                                        *
  *                                                                        */
 use OpsDev\Validator\Domain\Validator\DomainNameValidator;

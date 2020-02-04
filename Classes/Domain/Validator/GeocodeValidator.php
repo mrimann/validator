@@ -1,7 +1,7 @@
 <?php
 namespace OpsDev\Validator\Domain\Validator;
 /*                                                                        *
- * This script belongs to the TYPO3 Flow package "OpsDev.Validator".      *
+ * This script belongs to the Flow package "OpsDev.Validator".            *
  *                                                                        *
  *                                                                        */
 

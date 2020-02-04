@@ -1,7 +1,7 @@
 <?php
 namespace OpsDev\Validator\Domain\Validator;
 /*                                                                        *
- * This script belongs to the TYPO3 Flow package "Roketi.Panel".          *
+ * This script belongs to the Flow package "OpsDev.Validator".            *
  *                                                                        *
  *                                                                        */
 use TrueBV\Punycode;
